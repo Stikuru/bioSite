@@ -71,6 +71,19 @@ body {
     border: 3px solid black;
 }
 
+.main a:link {
+    text-decoration: none;
+}
+
+.main a:visited {
+    color: white;
+}
+
+.main a:hover {
+    background-color: orange;
+    color: orange;
+}
+
 .summary, .picontainer {
     border: 2px solid black;
     text-align: center;
@@ -90,4 +103,9 @@ body {
     text-align: center;
     font-size: xx-large;
     font-weight: 700;
+}
+
+figcaption {
+    font-family: Square Peg, Verdana, Arial, sans-serif;
+    font-size: x-large;
 }
