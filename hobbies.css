@@ -70,7 +70,7 @@ body {
     border: 3px solid black;
 }
 
-.summary, .picontainer {
+.lcol, .rcol {
     border: 2px solid black;
     text-align: center;
     background-color: green;
