@@ -32,6 +32,10 @@ body {
     background-color: black;
 }
 
+p {
+    padding: 0 2% 2% 2%;
+}
+
 .navbar {
     margin: 0 5% 0 5%;
     font-weight: 700;
@@ -72,6 +76,10 @@ body {
 .lcol, .rcol, .mcol {
     border: 2px solid black;
     text-align: center;
-    background-color: green;
+    background-color: #1287A8;
     color: white;
+}
+
+img {
+    border: 5px solid black;
 }

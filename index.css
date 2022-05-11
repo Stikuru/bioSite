@@ -33,6 +33,10 @@ body {
     background-color: black;
 }
 
+p {
+    padding:0 2% 2% 2%
+}
+
 .navbar {
     margin: 0 5% 0 5%;
     font-weight: 700;
@@ -86,7 +90,7 @@ body {
 .summary, .picontainer {
     border: 2px solid black;
     text-align: center;
-    background-color: green;
+    background-color: #1287A8;
     color: white;
 }
 
@@ -102,9 +106,14 @@ body {
     text-align: center;
     font-size: xx-large;
     font-weight: 700;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 figcaption {
     font-family: "Square Peg", Verdana, Arial, sans-serif;
     font-size: x-large;
+}
+
+img {
+    border: 5px solid black;
 }
